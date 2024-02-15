@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="women's.css">
+        <link rel="stylesheet" href="swiper-bundle.min.css">
+       
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" type="x-icon" href="icon.jpg">
+    <script src="jquery-3.7.1.min.js"></script>
+
+    <title> Blvck Women's </title>
+</head>
+<body>
+
+   <!-- Navber -->
+   <nav>
+    <div class="nav-bar">
+        <i class='bx bx-menu sidebarOpen' ></i>
+        <span class="logo navLogo"><a href="index.html"><img src="logo-f.avif" alt=""></a></span>
+
+        <div class="menu">
+            <div class="logo-toggle">
+                <span class="logo"> <a href="index.html"><img src="logo-f.avif" alt=""></a></span>
+                <i class='bx bx-x siderbarClose'></i>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="darkLight-searchBox">
+
+            <div class="dark-light">
+                <!-- <a href=""><i class='bx bxs-user' ></i></a> -->
+            </div>
+
+            <i class='bx bxs-user' style="color: white; font-size: 1.4rem; padding-right: 10px;" ></i>
+
+            <div class="modal" id="modal">
+              <div class="modal-header">
+                <div class="title">Example Modal</div>
+                <button data-close-button class="close-button">&times;</button>
+              </div>
+          
+              <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati 
+                distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus 
+                ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto,
+                 dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor
+                  exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+              </div>
+          
+            </div>
+          
+            <div id="overlay"></div>
+
+
+            <div class="dark-light">
+                <i class='bx bxs-cart'></i>
+            </div>
+           
+
+            <div class="searchBox">
+               <div class="searchToggle">
+                <i class='bx bx-x cancel'></i>
+                <i class='bx bx-search search'></i>
+               </div>
+
+                <div class="search-field">
+                    <input type="text" placeholder="Search...">
+                    <i class='bx bx-search'></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- background -->
+<div class="banner">
+<div class="content">
+    <h1 class="bounce">Ready-to-Wear</h1>
+    <button  style="background-color: #000000;"> <a href="women's.html" style="text-decoration: none; color: white;">LIMITED QUANTITY</a></button>
+
+</div>
+</div> 
+
+
+<section class="nav2"  >
+    <button class="btn  text-white filter" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        FILTER<i class='bx bx-filter'></i>
+      </button>
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header" >
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel" style="margin-top: 40%;">Offcanvas</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" ></button>
+        </div>
+        <div class="offcanvas-body" >
+          <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="dropdown mt-3">
+        <button class="btn text-white dropdown-toggle dropdown1" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    
+    </section>
+
+    <section class="product"> 
+        <div class="container2"> 
+      
+        <div class="product-container">
+          <div class="product-card">
+      
+            <div class="product-image">
+                <span class="discount-tag">NEW</span>
+                <span class="whislist"><i class='bx bx-heart'></i></span>
+                <img src="wom1.webp" class="product-thumb" id="sli1" alt="">
+                <button class="card-btn">QUICK ADD</button>
+            </div>
+      
+            <div class="product-info">
+                
+                <p class="product-short-description"> Blvck Lilith Bag </p>
+                <span class="price">Rs 27,300.00</span>
+            </div>
+        </div>
+      
+      
+      
+        <div class="product-card">
+      
+          <div class="product-image">
+              <span class="discount-tag">NEW</span>
+              <span class="whislist"><i class='bx bx-heart'></i></span>
+              <img src="wom2.webp" class="product-thumb" id="sli2" alt="">
+              <button class="card-btn">QUICK ADD</button>
+          </div>
+      
+          <div class="product-info">
+              
+              <p class="product-short-description"> Blvck Signature Dress </p>
+              <span class="price">Rs 7,300.00</span>
+          </div>
+      </div>
+      
+        
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">NEW</span>
+                    <span class="whislist"><i class='bx bx-heart'></i></span>
+                    <img src="wom3.webp" class="product-thumb" id="sli3" alt="">
+                    <button class="card-btn"><a href="card.html">QUICK ADD</a></button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description">Blvck Blazer Dress</p>
+                    <span class="price">Rs 18,200.00</span>
+                </div>
+            </div>
+      
+      
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">NEW</span>
+                <span class="whislist"><i class='bx bx-heart'></i></span>
+                <img src="wom7.webp" class="product-thumb"  id="sli4" alt="">
+                <button class="card-btn">QUICK ADD</button>
+            </div>
+            <div class="product-info">
+                <p class="product-short-description " >Blvck Suede Bucket Hat</p>
+                <div class="reviews"> 
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <span class="price" >Rs 5,500.00</span>
+            </div>
+        </div>
+      
+      
+            <div class="product-card">
+                <div class="product-image">
+                  <span class="whislist"><i class='bx bx-heart'></i></span>
+                    <img src="wom4.webp" class="product-thumb"  id="sli5" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description">Blvck Cutout Top</p>
+                    <span class="price">Rs 7,300.00</span>
+                </div>
+            </div>
+      
+      
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag" style="background-color: #000000;">SALE</span>
+                <span class="whislist"><i class='bx bx-heart'></i></span>
+                <img src="wom5.webp" class="product-thumb" id="sli6" alt="">
+                <button class="card-btn">QUICK ADD</button>
+            </div>
+            <div class="product-info">
+                
+                <p class="product-short-description" >Blvck Ruffle Top</p>
+                <div class="reviews"> 
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <span class="price" >Rs 6,900.00</span><span class="actual-price"></span>
+            </div>
+        </div>
+      
+      
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">NEW</span>
+                    <span class="whislist"><i class='bx bx-heart'></i></span>
+                    <img src="wom6.webp" class="product-thumb" id="sli7" alt="">
+                    <button class="card-btn">QUICK ADD</button>
+                </div>
+                <div class="product-info">
+                    
+                    <p class="product-short-description " >Blvck Zipped Skirt</p>
+                    <div class="reviews"> 
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                    </div>
+                    <span class="price" >Rs 9,100.00</span><span class="actual-price"></span>
+                </div>
+            </div>
+      
+      <div class="product-card">
+            <div class="product-image">
+              <span class="whislist"><i class='bx bx-heart'></i></span>
+               <img src="wom8.webp"class="product-thumb"  id="sli8" alt="">
+                <button class="card-btn">QUICK ADD</button>
+            </div>
+            <div class="product-info">
+                
+                <p class="product-short-description" >Blvck Winter Beanie</p>
+                <span class="price" >Rs 5,500.00</span><span class="actual-price"></span>
+            </div>
+        </div>
+      
+      <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">NEW</span>
+                <span class="whislist"><i class='bx bx-heart'></i></span>
+                <img src="wom9.webp" class="product-thumb" id="sli9" alt="">
+                <button class="card-btn">QUICK ADD</button>
+            </div>
+            <div class="product-info">
+                <p class="product-short-description " >Blvck Teddy Slippers</p>
+                <div class="reviews"> 
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <span class="price">Rs 9,100.00</span><span class="actual-price"></span>
+            </div>
+        </div>
+      
+      <div class="product-card">
+            <div class="product-image">
+              <span class="whislist"><i class='bx bx-heart'></i></span>
+                <img src="wom.webp" class="product-thumb" id="sli10" alt="">
+                <button class="card-btn">QUICK ADD</button>
+            </div>
+            <div class="product-info">
+              <p class="product-short-description" >Blvck Christmas Hoddie </p>
+              <div class="reviews"> 
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+              </div>
+                <span class="price" >Rs 11,900.00</span>
+            </div>
+        </div>
+      
+      <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">NEW</span>
+                <span class="whislist"><i class='bx bx-heart'></i></span>
+                <img src="wom-9.webp" class="product-thumb" id="sli11" alt="">
+                <button class="card-btn">QUICK ADD</button>
+            </div>
+            <div class="product-info">
+                
+                <p class="product-short-description">Blvck Teddy</p>
+                <div class="reviews"> 
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                </div>
+                <span class="price" >Rs 9,900.00</span>
+            </div>
+        </div>
+      
+      
+      
+      
+        <div class="product-card">
+          <div class="product-image">
+            <span class="whislist"><i class='bx bx-heart'></i></span>
+              <img src="wom17.jpeg" class="product-thumb"  id="sli13" alt="">
+              <button class="card-btn">QUICK ADD</button>
+          </div>
+          <div class="product-info">
+              
+            <p class="product-short-description" >Black Sherling Bag</p>
+            <div class="reviews"> 
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <span class="price" >SOLD OUT</span>
+          </div>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-image">
+          <span class="whislist"><i class='bx bx-heart'></i></span>
+            <img src="wom10.webp" class="product-thumb"  id="sli14" alt="">
+            <button class="card-btn">QUICK ADD</button>
+        </div>
+        <div class="product-info">
+            
+          <p class="product-short-description">Blvck Hoddie 'Blvck'</p>
+          <div class="reviews"> 
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+          </div>
+          <span class="price" >Rs 12,800.00</span>
+        </div>
+      </div>
+      
+      <div class="product-card">
+      <div class="product-image">
+        <span class="whislist"><i class='bx bx-heart'></i></span>
+          <img src="wom11.webp" class="product-thumb"  id="sli15" alt="">
+          <button class="card-btn">QUICK ADD</button>
+      </div>
+      <div class="product-info">
+          
+        <p class="product-short-description" >Blvck Hoddie 'Charcoal'</p>
+        <div class="reviews"> 
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+        </div>
+        <span class="price" >Rs 12,800.00</span>
+      </div>
+      </div>
+      <div class="product-card">
+      <div class="product-image">
+      <span class="whislist"><i class='bx bx-heart'></i></span>
+        <img src="wom12.webp" class="product-thumb"  id="sli16" alt="">
+        <button class="card-btn">QUICK ADD</button>
+      </div>
+      <div class="product-info">
+        
+      <p class="product-short-description " >Blvck Swetear 'Blvck'</p>
+      <div class="reviews"> 
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+      </div>
+      <span class="price" >sold out</span>
+      </div>
+      </div>
+      
+      <div class="product-card">
+      <div class="product-image">
+      <span class="whislist"><i class='bx bx-heart'></i></span>
+        <img src="wom14.webp" class="product-thumb"  id="sli17" alt="">
+        <button class="card-btn">QUICK ADD</button>
+      </div>
+      <div class="product-info">
+        
+      <p class="product-short-description" >Blvck Tee 'Blvck'</p>
+      <div class="reviews"> 
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+      </div>
+      <span class="price" >Rs 6,900.00</span>
+      </div>
+      </div>
+      
+      <div class="product-card">
+      <div class="product-image">
+      <span class="whislist"><i class='bx bx-heart'></i></span>
+        <img src="wom21.webp" class="product-thumb"  id="sli18" alt="">
+        <button class="card-btn">QUICK ADD</button>
+      </div>
+      <div class="product-info">
+        
+      <p class="product-short-description" >Blvck Swetear 'Grey'</p>
+      <div class="reviews"> 
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+      </div>
+      <span class="price" >Rs 11,000.00</span>
+      </div>
+      </div>
+      
+        <div class="product-card">
+          <div class="product-image">
+            <span class="whislist"><i class='bx bx-heart'></i></span>
+              <img src="wom22.webp" class="product-thumb"  id="sli19" alt="">
+              <button class="card-btn">QUICK ADD</button>
+          </div>
+          <div class="product-info">
+      
+            <p class="product-short-description" >Blvck Sweatpants 'Blvck'</p>
+            <div class="reviews"> 
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <span class="price" >Rs 9,100.00</span>
+          </div>
+        </div>
+      
+        <div class="product-card">
+          <div class="product-image">
+            <span class="whislist"><i class='bx bx-heart'></i></span>
+              <img src="wom23.webp" class="product-thumb"  id="sli20" alt="">
+              <button class="card-btn">QUICK ADD</button>
+          </div>
+          <div class="product-info">
+              
+            <p class="product-short-description" >Blvck Sweatpants 'Charcoal'</p>
+            <div class="reviews"> 
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <span class="price" >Rs 9,100.00</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag" style="background-color: #000000;">SALE</span>
+              <span class="whislist"><i class='bx bx-heart'></i></span>
+                <img src="wom13.webp" class="product-thumb"  id="sli21" alt="">
+                <button class="card-btn">QUICK ADD</button>
+            </div>
+            <div class="product-info">
+                
+              <p class="product-short-description" >Blvck Sweatpants 'Grey'</p>
+              <div class="reviews"> 
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+              </div>
+              <span class="price" >Rs 9,100.00</span>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <span class="whislist"><i class='bx bx-heart'></i></span>
+                <img src="wom20.webp" class="product-thumb"  id="sli22" alt="">
+                <button class="card-btn">QUICK ADD</button>
+            </div>
+            <div class="product-info">
+                
+              <p class="product-short-description" >Blvck Sweater 'Charcoal'</p>
+              <div class="reviews"> 
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+              </div>
+              <span class="price" >Rs 11,500.00</span>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <span class="whislist"><i class='bx bx-heart'></i></span>
+                <img src="wom15.webp" class="product-thumb"  id="sli23" alt="">
+                <button class="card-btn">QUICK ADD</button>
+            </div>
+            <div class="product-info">
+                
+              <p class="product-short-description" >Blvck Label Short</p>
+              <div class="reviews"> 
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+              </div>
+              <span class="price" >Rs 6,900.00</span>
+            </div>
+          </div>
+
+
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag" style="background-color: #000000;">SALE</span>
+              <span class="whislist"><i class='bx bx-heart'></i></span>
+                <img src="wom16.webp" class="product-thumb"  id="sli24" alt="">
+                <button class="card-btn">QUICK ADD</button>
+            </div>
+            <div class="product-info">
+                
+              <p class="product-short-description" >Blvck Bandana Short</p>
+              <div class="reviews"> 
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+              </div>
+              <span class="price" >Rs 6,900.00</span>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <span class="whislist"><i class='bx bx-heart'></i></span>
+                <img src="wom18.webp" class="product-thumb"  id="sli25" alt="">
+                <button class="card-btn">QUICK ADD</button>
+            </div>
+            <div class="product-info">
+                
+              <p class="product-short-description" >Blvck Signature Mohair</p>
+              <div class="reviews"> 
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+              </div>
+              <span class="price" >Rs 12,800.00</span>
+            </div>
+          </div>
+
+
+        </div>  
+    
+      </section>
+
+      <!-- paganination -->
+
+      <section class="body1">
+        <div class="container12">
+          <button class="button12" id="startBtn" disabled>
+            <i class="fa-solid fa-angles-left"></i>
+          </button>
+          <button class="button12 prevNext" id="prev" disabled>
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+      
+      
+          <div class="links">
+            <a href="#" class="link active">1</a>
+            <a href="#" class="link">2</a>
+            <a href="#" class="link">3</a>
+            <a href="#" class="link">4</a>
+            <a href="#" class="link">5</a>
+          </div>
+      
+          <button class="button12 prevNext" id="next">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+          <button class="button12" id="endBtn">
+            <i class="fa-solid fa-angles-right"></i>
+          </button>
+        </div>
+      </section>
+      
+
+      <!-- footer -->
+      <footer class="footerf">
+        <div class="containerfoter">
+            <div class="f-logo">
+                <img src="gray-logo.avif" alt="">
+            </div>
+            <div class="frow">
+                <div class="footer-det">
+                    <h4>COLLECTIONS</h4>
+                    <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Digital</a></li>
+                        <li><a href="#">Slaes</a></li>
+                        <li><a href="#">whte</a></li>
+                        <li><a href="#">Collab</a></li>
+                    </ul>
+                </div>
+                <div class="footer-det">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="return.html">Return</a></li>
+                        <li><a href="shopping.html">Shipping</a></li>
+                        <li><a href="Terms of service.html">Term</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="stores.html">Stores</a></li>
+                    </ul>
+                </div>
+                <div class="footer-det">
+                    <h4>More</h4>
+                    <ul>
+                        <li><a href="#">Blvcklist</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Afiliate Program</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="footer-social1">
+                <h4>SOCIAL</h4>
+                <p>Stay connected.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f" style="font-size: 1.4rem;"></i></a>
+                    <a href="#"><i class="fab fa-twitter"     style="font-size: 1.4rem;"></i></a>
+                    <a href="#"><i class="fab fa-instagram"   style="font-size: 1.4rem;"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in" style="font-size: 1.4rem;"></i></a>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+<!-- Swiper JS -->
+<script src="swiper-bundle.min.js"></script>
+<script src="java.js"></script>
+<Script >// Selecting DOM elements
+  const startBtn = document.querySelector("#startBtn"),
+    endBtn = document.querySelector("#endBtn"),
+    prevNext = document.querySelectorAll(".prevNext"),  
+    numbers = document.querySelectorAll(".link");
+  
+  // Setting an initial step
+  let currentStep = 0;
+  
+  // Function to update the button states
+  const updateBtn = () => {
+    // If we are at the last step
+    if (currentStep === 4) {
+      endBtn.disabled = true;
+      prevNext[1].disabled = true;
+    } else if (currentStep === 0) {
+      // If we are at the first step
+      startBtn.disabled = true;
+      prevNext[0].disabled = true;
+    } else {
+      endBtn.disabled = false;
+      prevNext[1].disabled = false;
+      startBtn.disabled = false;
+      prevNext[0].disabled = false;
+    }
+  };
+  
+  // Add event listeners to the number links
+  // numbers.forEach((number, numIndex) => {
+  //   number.addEventListener("click", (e) => {
+  //     e.preventDefault();
+  //     // Set the current step to the clicked number link
+  //     currentStep = numIndex;
+  //     // Remove the "active" class from the previously active number link
+  //     document.querySelector(".active").classList.remove("active");
+  //     // Add the "active" class to the clicked number link
+  //     number.classList.add("active");
+  //     updateBtn(); // Update the button states
+  //   });
+  // });
+  
+  // Add event listeners to the "Previous" and "Next" buttons
+  prevNext.forEach((button) => {
+    button.addEventListener("click", (e) => {
+      // Increment or decrement the current step based on the button clicked
+      currentStep += e.target.id === "next" ? 1 : -1;
+      numbers.forEach((number, numIndex) => {
+        // Toggle the "active" class on the number links based on the current step
+        number.classList.toggle("active", numIndex === currentStep);
+        updateBtn(); // Update the button states
+      });
+    });
+  });
+  
+  // Add event listener to the "Start" button
+  startBtn.addEventListener("click", () => {
+    // Remove the "active" class from the previously active number link
+    document.querySelector(".active").classList.remove("active");
+    // Add the "active" class to the first number link
+    numbers[0].classList.add("active");
+    currentStep = 0;
+    updateBtn(); // Update the button states
+    endBtn.disabled = false;
+    prevNext[1].disabled = false;
+  });
+  
+  // Add event listener to the "End" button
+  endBtn.addEventListener("click", () => {
+    // Remove the "active" class from the previously active number link
+    document.querySelector(".active").classList.remove("active");
+    // Add the "active" class to the last number link
+    numbers[4].classList.add("active");
+    currentStep = 4;
+    updateBtn(); // Update the button states
+    startBtn.disabled = false;
+    prevNext[0].disabled = false;
+  });
+  </SCript>
+</body>
+</html>
+<script>
+  $(document).ready(function(){
+   $('#sli1').hover(function(){
+       $('#sli1').attr('src','wom-1.webp');
+   },
+   function(){
+       $('#sli1').attr('src','wom1.webp');
+   })
+ }); 
+ $(document).ready(function(){
+   $('#sli2').hover(function(){
+       $('#sli2').attr('src','wom-2.webp');
+   },
+   function(){
+       $('#sli2').attr('src','  wom2.webp');
+   })
+ });
+ $(document).ready(function(){
+ $('#sli3').hover(function(){
+     $('#sli3').attr('src','wom-3.webp');
+ },
+ function(){
+     $('#sli3').attr('src','wom3.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli4').hover(function(){
+     $('#sli4').attr('src','wom-7.webp');
+ },
+ function(){
+     $('#sli4').attr('src','wom7.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli5').hover(function(){
+     $('#sli5').attr('src','wom-4.webp');
+ },
+ function(){
+     $('#sli5').attr('src','wom4.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli6').hover(function(){
+     $('#sli6').attr('src','wom-5.webp');
+ },
+ function(){
+     $('#sli6').attr('src','wom5.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli7').hover(function(){
+     $('#sli7').attr('src','wom-6.webp');
+ },
+ function(){
+     $('#sli7').attr('src','wom6.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli8').hover(function(){
+     $('#sli8').attr('src','wom-8.webp');
+ },
+ function(){
+     $('#sli8').attr('src','wom8.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli9').hover(function(){
+     $('#sli9').attr('src','wom-9.webp');
+ },
+ function(){
+     $('#sli9').attr('src','wom9.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli10').hover(function(){
+     $('#sli10').attr('src','wom999.webp');
+ },
+ function(){
+     $('#sli10').attr('src','wom.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli11').hover(function(){
+     $('#sli11').attr('src','wom999.webp');
+ },
+ function(){
+     $('#sli11').attr('src','wom-9.webp');
+ })
+});
+
+$(document).ready(function(){
+ $('#sli13').hover(function(){
+     $('#sli13').attr('src','wom-17.webp');
+ },
+ function(){
+     $('#sli13').attr('src','wom17.jpeg');
+ })
+});
+$(document).ready(function(){
+ $('#sli14').hover(function(){
+     $('#sli14').attr('src','wom-10.webp');
+ },
+ function(){
+     $('#sli14').attr('src','wom10.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli15').hover(function(){
+     $('#sli15').attr('src','wom-11.webp');
+ },
+ function(){
+     $('#sli15').attr('src','wom11.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli16').hover(function(){
+     $('#sli16').attr('src','wom-12.webp');
+ },
+ function(){
+     $('#sli16').attr('src','wom12.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli17').hover(function(){
+     $('#sli17').attr('src','wom-14.webp');
+ },
+ function(){
+     $('#sli17').attr('src','wom14.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli18').hover(function(){
+     $('#sli18').attr('src','wom-21.webp');
+ },
+ function(){
+     $('#sli18').attr('src','wom21.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli19').hover(function(){
+     $('#sli19').attr('src','wom-22.webp');
+ },
+ function(){
+     $('#sli19').attr('src','wom22.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli20').hover(function(){
+     $('#sli20').attr('src','wom-23.webp');
+ },
+ function(){
+     $('#sli20').attr('src','wom23.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli21').hover(function(){
+     $('#sli21').attr('src','wom-13.webp');
+ },
+ function(){
+     $('#sli21').attr('src','wom13.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli22').hover(function(){
+     $('#sli22').attr('src','wom-20.webp');
+ },
+ function(){
+     $('#sli22').attr('src','wom20.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli23').hover(function(){
+     $('#sli23').attr('src','wom-15.webp');
+ },
+ function(){
+     $('#sli23').attr('src','wom15.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli24').hover(function(){
+     $('#sli24').attr('src','wom-16.webp');
+ },
+ function(){
+     $('#sli24').attr('src','wom16.webp');
+ })
+});
+$(document).ready(function(){
+ $('#sli25').hover(function(){
+     $('#sli25').attr('src','wom-18.webp');
+ },
+ function(){
+     $('#sli25').attr('src','wom18.webp');
+ })
+});
+
+</script> 
